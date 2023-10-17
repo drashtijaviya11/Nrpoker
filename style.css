@@ -1,0 +1,6304 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main-section {
+    background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+    width: 100%;
+    height: 1000px;
+    margin-top: -8px;
+    position: relative;
+}
+
+.header {
+    padding: 2px 0;
+    width: 100%;
+    background-color: #000;
+}
+
+.header.scrolled {
+    background: #000;
+    border-bottom: 1px solid #8b8b8b;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.header .wrapper {
+    display: flex;
+}
+
+.header .left-side {
+    position: relative;
+    display: flex;
+}
+
+.header .left-side img {
+    position: relative;
+    padding: 10px 5px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.nav-list {
+    position: relative;
+    padding: 10px 10px 10px 30px;
+    flex-shrink: 0 ;
+}
+
+.list-item {
+    display: flex;
+    gap: 37px;
+    padding-top: 10px;
+}
+
+.nav-list .list-item li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ECECEC;
+    font-family: "Istok Web" ,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.header .search-btn {
+    padding: 25px 0px 0px 30px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.header .search-button {
+    position: relative;
+    border: none;
+    padding: 0px 6px;
+    background-color: #1d1d1d;
+    flex-shrink: 0;
+}
+
+.header .search-button img {
+    height: 40px;
+    width: 30px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.header .right-side {
+    position: relative;
+    display: flex;
+    gap: -10px;
+    padding: 20px 0px 0px 100px;
+    flex-shrink: 0;
+}
+
+.help-btn {
+    position: relative;
+    padding: 10px 20px 0px 40px;
+    flex-shrink: 0;
+}
+
+.help-b {
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    padding: 4px 6px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
+.help-b img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.profile-btn {
+    position: relative;
+    padding: 10px 20px 0px 10px;
+    flex-shrink: 0;
+}
+
+.profile-b {
+    border: none;
+    background-color: #fff;
+    padding: 4px 6px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
+.help-b img {
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.download-btn {
+    position: relative;
+    padding: 10px 20px 0px 10px;
+    flex-shrink: 0;
+}
+
+.download-b {
+    border: none;
+    background: none;
+    padding: 4px;
+    color: #025ea4;
+    font-family: "Istok Web" ,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.sign-btn {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    flex-shrink: 0;
+}
+
+.signup-b {
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+    padding: 12px 26px;
+    color: #fff;
+    font-family: "Istok Web" ,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: normal;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+}
+
+.hero-section .left-secction {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.hero-section .main-para {
+    display: flex;
+    flex-direction: column;
+    margin-left: -500px;
+    margin-top: 70px;
+    padding: 0px
+}
+
+.hero-section .main-para h3 {
+    color: #FFF;
+    font-family: "Kanit" ,sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px; /* 100% */
+    flex-shrink: 0;
+}
+
+.hero-section .main-para p {
+    color: #BDBCBC;
+    font-family: "Kanit" ,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -25px;
+}
+
+.hero-section .sign-up-section {
+    padding: 0px 10px 80px 10px;
+    margin-left: -500px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(7, 0, 56, 0.404);
+    box-shadow: 3px 3px 10px 0px rgba(23, 15, 78, 0.77);
+
+}
+
+.hero-section .sign-up-section p {
+    color: #fcc100;
+    font-family: "Kanit" ,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 285.714% */
+}
+
+.hero-section .sign-up-section span {
+    color: #BDBCBC;
+    font-family: "Kanit" ,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -32px;
+    position: absolute;
+}
+
+.hero-section .sign-up-section .btn-section {
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.sign-up-btn {
+    width: 160px;
+    height: 42px;   
+    border: none;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+    color: #FFF;
+    font-family: "Istok Web" ,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.learn-btn {
+    width: 160px;
+    height: 42px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-family: "Istok Web" ,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-section .right-section {
+    margin-left: 100px;
+    margin-top: -400px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.right-section img {
+    flex-shrink: 0;
+    width: 500px;
+    height: 600px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.right-section img:hover {
+    transform: scale(1.1);
+}
+
+.mobile-header {
+    display: none;
+}
+
+.header-container {
+    display: none;
+}
+
+@media(max-width: 1200px) {
+
+    .main-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 860px;
+        height: 1200px;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+        width: 835px;
+        height: 80px;
+        background-color: #000;
+        display: block;
+    }
+
+    .mobile-header.scrolled {
+        background: #000;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .main-menu img {
+        position: relative;
+        z-index: 100;
+        margin-top: 5px;
+    }
+
+    .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 5px;
+    }   
+
+    .signup-b {
+        margin-left: 540px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 36px;
+        height: 34px;
+        border: none;
+        background-color: #fff;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 16px;
+        height: 18px;
+    }
+
+    .hero-section {
+        height: auto;
+        position: absolute;
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-section .left-secction {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-section .main-para {
+        display: flex;
+        flex-direction: column;
+        margin-left: -250px;
+        margin-top: -60px;
+    }
+    
+    .hero-section .main-para h3 {
+        color: #FFF;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 40px; /* 100% */
+    }
+    
+    .hero-section .main-para p {
+        color: #BDBCBC;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -25px;
+    }
+
+    .main-para span {
+        margin-top: -60px;
+    }
+
+    .hero-section .sign-up-section {
+        width: 400px;
+        height: 180px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: rgba(7, 0, 56, 0.404);
+        box-shadow: 3px 3px 10px 0px rgba(23, 15, 78, 0.77);
+        margin-left: -260px;
+        margin-top: 50px;
+    }
+    
+    .hero-section .sign-up-section p {
+        color: #fcc100;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 285.714% */
+        margin-left: 20px;
+    }
+    
+    .hero-section .sign-up-section span {
+        color: #BDBCBC;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: -10px;
+        position: absolute;
+    }
+    
+    .hero-section .sign-up-section .btn-section {
+        position: absolute;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    
+    .sign-up-btn {
+        width: 160px;
+        height: 42px;   
+        border: none;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        color: #FFF;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .learn-btn {
+        width: 160px;
+        height: 42px;
+        border-radius: 30px;
+        border: 1px solid #FFF;
+        background: none;
+        color: #FFF;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .right-section img {
+        margin-left: 50px;
+        position: relative;
+        margin-top: 40px;
+        height: 500px;
+        width: 400px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+
+    }
+
+    .right-section img:hover {
+        transform: scale(1.1);
+    }
+
+    .header-container.active {
+        width: 835px;
+        height: 1195px;
+        margin-top: -80px;
+        background-color: #1d1d1d;
+        display: block;
+        transition: all 400ms ease;
+        z-index: 200;
+        position: fixed;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 835px;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 550px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 36px;
+        height: 34px;
+        border: none;
+        background-color: #fff;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 16px;
+        height: 18px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -20px;
+        margin-top: 50px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 760px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+
+    .header-container form {
+        margin-left: 20px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px  440px 8px 70px;
+        border: none;
+        width: 250px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 835px;
+        height: 70px;
+        background-color: #000;
+        margin-top: 110px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+}
+
+@media(max-width: 700px){
+
+    .main-section {
+        width: 380px;        
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        height: 1200px;
+        margin-top: -8px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .main-section .mobile-header {
+        display: block;
+        width: 360px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .main-section .mobile-header .wrapper {
+        width: 360px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .main-section .mobile-header.scrolled {
+        background: #000;
+        width: 360px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .main-section .hero-section {
+        height: auto;
+        width: 360px;
+        position: relative;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section .wrapper {
+        position: relative;
+        width: 360px;
+        background-color:transparent;
+    }
+    
+    .hero-section .left-secction {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-section .main-para {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+    
+    .hero-section .main-para h3 {
+        color: #FFF;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px; /* 100% */
+    }
+    
+    .hero-section .main-para p {
+        color: #BDBCBC;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: -10px;
+    }
+
+    .main-para span {
+        margin-top: -60px;
+    }
+
+    .hero-section .sign-up-section {
+        width: 320px;
+        height: 180px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: rgba(7, 0, 56, 0.404);
+        box-shadow: 3px 3px 10px 0px rgba(23, 15, 78, 0.77);
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    
+    .hero-section .sign-up-section p {
+        color: #FCc100;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 285.714% */
+        margin-left: 20px;
+    }
+    
+    .hero-section .sign-up-section span {
+        color: #BDBCBC;
+        font-family: "Kanit" ,sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: -10px;
+        position: absolute;
+    }
+    
+    .hero-section .sign-up-section .btn-section {
+        position: absolute;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    
+    .sign-up-btn {
+        width: 140px;
+        height: 42px;   
+        border: none;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        color: #FFF;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .learn-btn {
+        width: 140px;
+        height: 42px;
+        border-radius: 30px;
+        border: 1px solid #FFF;
+        background: none;
+        color: #FFF;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        flex-shrink: 0;
+    }
+
+    .right-section img {
+        margin-left: -80px;
+        position: relative;
+        margin-top: 470px;
+        height: 450px;
+        width: 350px;
+    }
+
+    .header-container.active {
+        width: 412px;
+        height: 825px;
+        background-color: #1d1d1d;
+        display: block;
+        transition: all 400ms ease;
+        z-index: 200;
+        position: fixed;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
+
+
+/*----------------------------------about-page-------------------------------*/
+
+.about-section {
+    width: 100%;
+    height: 100vh;
+    background: #050022;
+}
+
+.banner-section {
+    position: relative; 
+    width: 100%;
+}
+
+.banner-section .wrapper {
+    width: 100%;
+    background: #050022;
+    flex-shrink: 0;   
+}
+
+.banner-section .container {
+    position: relative;
+    height: 370px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.banner-section .container .image img {
+    height: auto;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+}
+ 
+.banner-section .container .text-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: -280px;
+}
+
+.banner-section .container .text-section h1 {
+    color: #FFF;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-section .container .text-section p {
+    color: #Fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.banner-section .container .text-section span {
+    color: #FCD400;
+}
+
+.banner-section .main-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.banner-section .main-container .main-about {
+    padding: 100px 100px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.banner-section .main-container .main-about .contain {
+    display: flex;
+    position: relative;
+}
+
+.contain .image-con {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.contain .image-con img {
+    height: 500px;
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.contain .para-con {
+    position: relative;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain .para-con h2 {
+    color: #FCD400;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 32px;
+    font-weight: 550;
+}
+
+.contain .para-con p {
+    color: #E7E7E7;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contain .para-con span {
+    color: #d4d4d4;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contain .para-con .start-btn {
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg, #FCD400 0%, #FFC700 94.17%);
+    box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.29);
+    color: #0D1242;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media(max-width:1100px){
+
+    .about-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .about-section .mobile-header {
+        display: block;
+        width: 1100px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .about-section .mobile-header .wrapper {
+        width: 1100px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .about-section .mobile-header.scrolled {
+        background: #000;
+        width: 1100px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 800px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header-container.active {
+        width: 1100px;
+        height: auto;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 800px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 950px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 900px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 10px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .about-section .banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .about-section .banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .about-section .banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .about-section .banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 320px;
+        flex-shrink: 0;
+    }
+     
+    .about-section .banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .about-section .banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .about-section .banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .about-section .banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .about-section .banner-section .main-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .about-section .banner-section .main-container .main-about {
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .image-con {
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .image-con img {
+        height: 600px;
+        width: 600px;
+        flex-shrink: 0;
+        margin-top: -10px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con {
+        position: relative;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con h2 {
+        color: #FCD400;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 32px;
+        font-weight: 550;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con p {
+        color: #E7E7E7;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -5px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con span {
+        color: #d4d4d4;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -10px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con .start-btn {
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(90deg, #FCD400 0%, #FFC700 94.17%);
+        box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.29);
+        color: #0D1242;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+@media(max-width: 500px){
+    .about-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .about-section .mobile-header {
+        display: block;
+        width: 410px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .about-section .mobile-header .wrapper {
+        width: 410px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .about-section .mobile-header.scrolled {
+        background: #000;
+        width: 410px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .about-section .banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .about-section .banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .about-section .banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .about-section .banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+    }
+     
+    .about-section .banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .about-section .banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .about-section .banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .about-section .banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .about-section .banner-section .main-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .about-section .banner-section .main-container .main-about {
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .image-con {
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .image-con img {
+        height: 300px;
+        width: 350px;
+        flex-shrink: 0;
+        margin-top: -80px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con {
+        position: relative;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con h2 {
+        color: #FCD400;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 32px;
+        font-weight: 550;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con p {
+        color: #E7E7E7;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -5px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con span {
+        color: #d4d4d4;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -10px;
+    }
+    
+    .about-section .banner-section .main-container .main-about .contain .para-con .start-btn {
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(90deg, #FCD400 0%, #FFC700 94.17%);
+        box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.29);
+        color: #0D1242;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+     
+
+
+}
+
+@media(max-width: 700px) {
+
+    .main-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 100%;
+        height: 1200px;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .about-section .mobile-header {
+        display: block;
+        width: 700px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .about-section .mobile-header .wrapper {
+        width: 700px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .about-section .mobile-header.scrolled {
+        background: #000;
+        width: 700px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+
+    .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .main-menu img {
+        position: relative;
+        z-index: 100;
+        margin-top: 5px;
+    }
+
+    .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 5px;
+    }   
+
+    .signup-b {
+        margin-left: 540px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 36px;
+        height: 34px;
+        border: none;
+        background-color: #fff;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 16px;
+        height: 18px;
+    }
+
+    .about-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+    
+    .banner-section {
+        position: relative; 
+        width: 100%;
+    }
+    
+    .banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 300px;
+        flex-shrink: 0;
+    }
+     
+    .banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -240px;
+    }
+    
+    .banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .banner-section .main-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .banner-section .main-container .main-about {
+        padding: 10px 100px ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .banner-section .main-container .main-about .contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .contain .image-con {
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contain .image-con img {
+        height: 450px;
+        width: 550px;
+        flex-shrink: 0;
+    }
+    
+    .contain .para-con {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contain .para-con h2 {
+        color: #FCD400;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 550;
+    }
+    
+    .contain .para-con p {
+        color: #E7E7E7;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -30px;
+    }
+    
+    .contain .para-con span {
+        color: #d4d4d4;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: -70px;
+    }
+    
+    .contain .para-con .start-btn {
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(90deg, #FCD400 0%, #FFC700 94.17%);
+        box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.29);
+        color: #0D1242;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 50px;
+        margin-left: 65px;
+    }
+    
+}
+
+/*----------------------------------contact-us page----------------------------------*/
+
+.contact-section {
+    width: 100%;
+    height: 200vh;
+    background: #050022;
+}
+
+.contact-banner-section {
+    position: relative;
+    width: 100%;
+}
+
+.conatct-banner-section .wrapper {
+    width: 100%;
+    background: #050022;
+    flex-shrink: 0;   
+}
+
+.contact-banner-section .container {
+    position: relative;
+    height: 370px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.contact-banner-section .container .image img {
+    height: auto;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+}
+ 
+.contact-banner-section .container .text-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: -280px;
+}
+
+.contact-banner-section .container .text-section h1 {
+    color: #FFF;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-banner-section .container .text-section p {
+    color: #Fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.contact-banner-section .container .text-section span {
+    color: #FCD400;
+}
+
+.conatct-banner-section .contact-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.contact-container .main-contact {
+    padding: 200px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.contact-container .main-contact .contact-contain {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.info-table {
+    padding: 10px 30px 30px 20px;
+    border: 2px solid #E3DB17;
+    background: #050022;
+    box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+    position: absolute;
+}
+
+.info-table h2 {
+    color: #fff;
+    font-family: "josefin sans" ,sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.info-table .info {
+    position: relative;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 30px;
+}
+
+.info-table .info-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.info-table .info-list img {
+    width: 16px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.info-table .info-list a {
+    color: #DCDCDC;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 14px;    
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 111.111% */
+    text-decoration: none;
+}
+
+.info-table .social-section {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.info-table .social-section button {
+    background-color: #050022;
+    filter: drop-shadow(0px 0px 8px #FCB500);
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.info-table .social-section img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+
+.contact-table {
+    position: absolute;
+    padding: 60px 100px 80px 200px;
+    background: #00042C;
+    box-shadow: 0px 0px 9px 2px #0D1242;
+    margin-left: 160px;
+    margin-top: -80px;
+    flex-shrink: 0;
+}
+
+.contact-table h2 {
+    color: #fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-table .f-row {
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.contact-table .f-row .f-name {
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.f-name p {
+    color: #fff;
+    font-family: "josefin sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.f-name input {
+    border-radius: 4.973px;
+    border: 1px solid #AEAEAE;
+    background: #050022;
+    padding: 7px 40px;
+}
+
+.s-name p {
+    color: #fff;
+    font-family: "josefin sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.s-name input {
+    border-radius: 4.973px;
+    border: 1px solid #AEAEAE;
+    background: #050022;
+    padding: 7px 40px;
+}
+
+.contact-table .s-row {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.contact-table .s-row .e-mail {
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.e-mail p {
+    color: #fff;
+    font-family: "josefin sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.e-mail input {
+    border-radius: 4.973px;
+    border: 1px solid #AEAEAE;
+    background: #050022;
+    padding: 7px 40px;
+}
+
+.p-num p {
+    color: #fff;
+    font-family: "josefin sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.p-num input {
+    border-radius: 4px;
+    border: 0.829px solid #AEAEAE;
+    background: #050022;
+    padding: 7px 40px;
+}
+
+.t-row {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.t-row .m-box {
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.m-box p {
+    color: #fff;
+    font-family: "josefin sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.m-box input {
+    border-radius: 4px;
+    border: 0.829px solid #AEAEAE;
+    background: #050022;
+    padding: 50px 180px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.message-btn {
+    position: relative;
+    flex-shrink: 0;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media(max-width: 700px){
+    .conatct-section {
+        width: 100%;
+        height: auto;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .contact-section .mobile-header {
+        display: block;
+        width: 410px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .contact-section .mobile-header .wrapper {
+        width: 410px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .contact-section .mobile-header.scrolled {
+        background: #000;
+        width: 410px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .contact-section .banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .contact-section .banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .contact-section .banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .contact-section .banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+    }
+     
+    .contact-section .banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .contact-section .banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .contact-section .banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .contact-section .banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .conatct-banner-section .contact-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-container .main-contact {
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table {
+        margin-left: 0px;
+        margin-top: -240px;
+        padding: 10px 50px 20px 10px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        position: absolute;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table h2 {
+        color: #fff;
+        font-family: "josefin sans" ,sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .info {
+        position: relative;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 30px;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .info-list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style-type: none;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .info-list img {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .info-list a {
+        color: #DCDCDC;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 13px;    
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 111.111% */
+        text-decoration: none;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .social-section {
+        position: relative;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .social-section button {
+        background-color: #050022;
+        filter: drop-shadow(0px 0px 8px #FCB500);
+        border: none;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .contact-container .main-contact .contact-contain .info-table .social-section img {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    
+    .contact-container .main-contact .contact-contain .contact-table {
+        position: absolute;
+        padding: 40px 30px 30px 20px;
+        background: #00042C;
+        box-shadow: 0px 0px 9px 2px #0D1242;
+        margin-left: 0px;
+        margin-top: 250px;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table h2 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row .f-name {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row .f-name p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row .f-name input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 40px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row .s-name p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .f-row .s-name input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 60px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row .e-mail {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row .e-mail p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row .e-mail input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 40px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row .p-num p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .s-row .p-num input {
+        border-radius: 4px;
+        border: 0.829px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 60px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .t-row {
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .t-row .m-box {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .m-box p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .m-box input {
+        border-radius: 4px;
+        border: 0.829px solid #AEAEAE;
+        background: #050022;
+        padding: 50px 60px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain .contact-table .message-btn {
+        position: relative;
+        flex-shrink: 0;
+        margin-top: 20px;
+        padding: 8px 20px;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    
+
+}
+
+@media(max-width: 900px){
+    .conatct-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 100%;
+        height: auto;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+    
+    .contact-banner-section {
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        background: #050022;
+    }
+    
+    .contact-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .contact-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .contact-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 280px;
+        flex-shrink: 0;
+    }
+     
+    .contact-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .contact-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .contact-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .contact-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .conatct-banner-section .contact-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-container .main-contact {
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .contact-container .main-contact .contact-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .info-table {
+
+        margin-top: -240px;
+        padding: 10px 30px 30px 20px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        position: absolute;
+    }
+    
+    .info-table h2 {
+        color: #fff;
+        font-family: "josefin sans" ,sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .info-table .info {
+        position: relative;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 30px;
+    }
+    
+    .info-table .info-list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style-type: none;
+    }
+    
+    .info-table .info-list img {
+        width: 16px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+    
+    .info-table .info-list a {
+        color: #DCDCDC;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 14px;    
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 111.111% */
+        text-decoration: none;
+    }
+    
+    .info-table .social-section {
+        position: relative;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+    
+    .info-table .social-section button {
+        background-color: #050022;
+        filter: drop-shadow(0px 0px 8px #FCB500);
+        border: none;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .info-table .social-section img {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    
+    .contact-table {
+        position: absolute;
+        margin-left: -10px;
+        padding: 40px 100px 30px 100px;
+        background: #00042C;
+        box-shadow: 0px 0px 9px 2px #0D1242;
+        margin-top: 250px;
+        flex-shrink: 0;
+    }
+    
+    .contact-table h2 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .contact-table .f-row {
+        display: flex;
+        gap: 20px;
+        position: relative;
+    }
+    
+    .contact-table .f-row .f-name {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .f-name p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .f-name input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 30px;
+    }
+    
+    .s-name p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .s-name input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 35px;
+    }
+    
+    .contact-table .s-row {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .contact-table .s-row .e-mail {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .e-mail p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .e-mail input {
+        border-radius: 4.973px;
+        border: 1px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 30px;
+    }
+    
+    .p-num p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .p-num input {
+        border-radius: 4px;
+        border: 0.829px solid #AEAEAE;
+        background: #050022;
+        padding: 7px 35px;
+    }
+    
+    .t-row {
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+    
+    .t-row .m-box {
+        display: flex;
+        flex-direction: column ;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .m-box p {
+        color: #fff;
+        font-family: "josefin sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .m-box input {
+        border-radius: 4px;
+        border: 0.829px solid #AEAEAE;
+        background: #050022;
+        padding: 50px 160px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .message-btn {
+        position: relative;
+        flex-shrink: 0;
+        margin-top: 20px;
+        padding: 8px 20px;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    
+
+}
+
+
+/*------------------------------------------login-page----------------------------------*/
+
+.login-section {
+    width: 100%;
+    height: auto;
+    background: #050022;
+}
+
+.login-banner-section {
+    position: relative;
+    width: 100%;
+}
+
+.login-banner-section .wrapper {
+    width: 100%;
+    background: #050022;
+    flex-shrink: 0;   
+}
+
+.login-banner-section .container {
+    position: relative;
+    height: 370px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.login-banner-section .container .image img {
+    height: auto;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+}
+ 
+.login-banner-section .container .text-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: -280px;
+}
+
+.login-banner-section .container .text-section h1 {
+    color: #FFF;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.login-banner-section .container .text-section p {
+    color: #Fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.login-banner-section .container .text-section span {
+    color: #FCD400;
+}
+
+.login-banner-section .login-container {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+}
+
+.login-container .main-login {
+    padding: 120px 480px 100px 480px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.login-container .main-login .login-table {
+    padding: 10px 20px;
+    border: 2px solid #E3DB17;
+    background: #050022;
+    box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.login-table .logo-section {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 140px;
+}
+
+.login-table .f-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.login-table .f-column .u-name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.u-name p {
+    color: #fff;
+    font-family: "Josefin-Sans" ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+} 
+
+.u-name img {
+    width: 16px;
+    height: 17px;
+    margin-top: 15px;
+}
+
+.f-column input {
+    position: relative;
+    height: 40px;
+    width: 350px;
+    border: 0.5px solid rgba(25, 21, 54, 0.50);
+    background: rgba(25, 21, 54, 0.53);
+    flex-shrink: 0;
+}
+
+.login-table .s-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.login-table .s-column .password {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.password p {
+    color: #fff;
+    font-family: "Josefin-Sans" ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+} 
+
+.password img {
+    width: 16px;
+    height: 19px;
+    margin-top: 15px;
+}
+
+.s-column input {
+    position: relative;
+    height: 40px;
+    width: 350px;
+    border: 0.5px solid rgba(25, 21, 54, 0.50);
+    background: rgba(25, 21, 54, 0.53);
+    flex-shrink: 0;
+}
+
+.button-grp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.button-grp .login {
+    border-radius: 4px;
+    background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+    position: absolute;
+    border: none;
+    padding: 10px 150px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button-grp .l-image {
+    border-radius: 4px;
+    border: 2px solid #1C8A84;
+    background: #050022;
+    box-shadow: 0px 0px 10px 4px rgba(28, 138, 132, 0.73);
+    margin-top: 70px;
+    position: absolute;
+    padding: 10px 60px;
+    margin-left: 60px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.last-row {
+    margin-top: 140px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-row p {
+    color: #fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.last-row p span {
+    color: #00D1FF;
+    font-weight: 700;
+}
+
+.last-row span {
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #00D1FF;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+
+.face-login-table {
+    padding: 30px 20px;
+    border: 2px solid #E3DB17;
+    background: #050022;
+    box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+    flex-shrink: 0;
+    position: relative;
+    align-items: center;
+    display: none;
+}
+
+.face-login-table .logo-section {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0; 
+    margin-left: 130px;
+}
+
+.face-login-table .scan-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.face-login-table .scan-section h2 {
+    color: #fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+}
+
+.face-login-table .scan-section img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.face-login-table .scan-section .face-btn {
+    border-radius: 4px;
+    background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+    border: none;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 80px;
+}
+
+@media(max-width: 700px){
+    .login-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .login-section .mobile-header {
+        display: block;
+        width: 410px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .login-section .mobile-header .wrapper {
+        width: 410px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .login-section .mobile-header.scrolled {
+        background: #000;
+        width: 410px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;    
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .login-section .login-banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .login-section .login-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .login-section .login-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .login-section .wrapper .login-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+    }
+     
+    .login-section .wrapper .login-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .login-section .wrapper .login-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .login-section .wrapper .login-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .login-section .wrapper .login-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login {
+        align-items: center;
+        display: flex;
+        margin-top: 50px;
+        margin-left: -455px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table {
+        padding: 10px 10px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        flex-shrink: 0;
+        position: absolute;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table .logo-section {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 140px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .f-column {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table .f-column .u-name {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table .f-column .u-name p {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    } 
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table .f-column .u-name img {
+        width: 16px;
+        height: 17px;
+        margin-top: 15px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login .login-table .f-column input {
+        position: relative;
+        height: 40px;
+        width: 350px;
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        flex-shrink: 0;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .login-table .s-column {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .login-table .s-column .password {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .s-column .password p {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    } 
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .s-column .password img {
+        width: 16px;
+        height: 19px;
+        margin-top: 15px;
+    }
+    
+    .login-section .wrapper .login-banner-section .login-container .main-login.login-table .s-column input {
+        position: relative;
+        height: 40px;
+        width: 350px;
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        flex-shrink: 0;
+    }
+    
+    .button-grp {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    
+    .button-grp .login {
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        position: absolute;
+        border: none;
+        padding: 10px 150px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .button-grp .l-image {
+        border-radius: 4px;
+        border: 2px solid #1C8A84;
+        background: #050022;
+        box-shadow: 0px 0px 10px 4px rgba(28, 138, 132, 0.73);
+        margin-top: 70px;
+        position: absolute;
+        padding: 10px 60px;
+        margin-left: 60px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    .last-row {
+        margin-top: 140px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .last-row p {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .last-row p span {
+        color: #00D1FF;
+        font-weight: 700;
+    }
+    
+    .last-row span {
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #00D1FF;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    
+    
+    .face-login-table {
+        padding: 30px 20px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        flex-shrink: 0;
+        position: relative;
+        align-items: center;
+        display: none;
+    }
+    
+    .face-login-table .logo-section {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0; 
+        margin-left: 130px;
+    }
+    
+    .face-login-table .scan-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .face-login-table .scan-section h2 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+    }
+    
+    .face-login-table .scan-section img {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .face-login-table .scan-section .face-btn {
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        border: none;
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 8px 80px;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .login-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 100%;
+        height: auto;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+    
+    .login-banner-section {
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        background: #050022;
+    }
+    
+    .login-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .login-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .login-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 280px;
+        flex-shrink: 0;
+    }
+     
+    .login-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .login-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .login-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .login-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .login-banner-section .login-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .login-container .main-login {
+        position: relative;
+        flex-shrink: 0;
+        margin-left: -220px;
+    }
+    
+    .login-table .f-column {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    
+    .login-table .f-column .u-name {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .u-name p {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    } 
+    
+    .u-name img {
+        width: 16px;
+        height: 17px;
+        margin-top: 15px;
+    }
+    
+    .f-column input {
+        position: relative;
+        height: 40px;
+        width: 350px;
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        flex-shrink: 0;
+    }
+    
+    .login-table .s-column {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+    
+    .login-table .s-column .password {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .password p {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    } 
+    
+    .password img {
+        width: 16px;
+        height: 19px;
+        margin-top: 15px;
+    }
+    
+    .s-column input {
+        position: relative;
+        height: 40px;
+        width: 350px;
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        flex-shrink: 0;
+    }
+    
+    .button-grp {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    
+    .button-grp .login {
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        position: absolute;
+        border: none;
+        padding: 10px 150px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .button-grp .l-image {
+        border-radius: 4px;
+        border: 2px solid #1C8A84;
+        background: #050022;
+        box-shadow: 0px 0px 10px 4px rgba(28, 138, 132, 0.73);
+        margin-top: 70px;
+        position: absolute;
+        padding: 10px 60px;
+        margin-left: 60px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    .last-row {
+        margin-top: 140px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .last-row p {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .last-row p span {
+        color: #00D1FF;
+        font-weight: 700;
+    }
+    
+    .last-row span {
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #00D1FF;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    
+    
+    .face-login-table {
+        padding: 30px 20px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        flex-shrink: 0;
+        position: relative;
+        align-items: center;
+        display: none;
+    }
+    
+    .face-login-table .logo-section {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0; 
+        margin-left: 130px;
+    }
+    
+    .face-login-table .scan-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .face-login-table .scan-section h2 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+    }
+    
+    .face-login-table .scan-section img {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    
+    .face-login-table .scan-section .face-btn {
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        border: none;
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 8px 80px;
+    }
+
+}
+
+/*-------------------------------signup-page--------------------------------------------------------*/
+
+.signup-section {
+    width: 100%;
+    height: auto;
+    background: #050022;
+}
+
+.signup-banner-section {
+    position: relative;
+    width: 100%;
+}
+
+.signup-banner-section .wrapper {
+    width: 100%;
+    background: #050022;
+    flex-shrink: 0;   
+}
+
+.signup-banner-section .container {
+    position: relative;
+    height: 370px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.signup-banner-section .container .image img {
+    height: auto;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+}
+ 
+.signup-banner-section .container .text-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: -280px;
+}
+
+.signup-banner-section .container .text-section h1 {
+    color: #FFF;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.signup-banner-section .container .text-section p {
+    color: #Fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.signup-banner-section .container .text-section span {
+    color: #FCD400;
+}
+
+.signup-banner-section .signup-container {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+}
+
+.signup-container .signup-contain {
+    padding: 200px;
+    position: absolute;
+    flex-shrink: 0;
+}
+
+.signup-container .main-signup .signup-contain {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.signup-table {
+    padding: 30px 30px 30px 20px;
+    border: 2px solid #E3DB17;
+    background: #050022;
+    box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.signup-table .heading-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+
+.heading-wrapper h2 {
+    color: #fff;
+    font-family: "Josefin-Sans" ,sans-serif;
+    font-size: 26px;
+    font-weight: 600px;
+}
+
+.heading-wrapper p {
+    color: #aeaeae;
+    font-family: "Josefin-Sans",sans-serif;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.heading-wrapper span {
+    color: #00D1FF;
+    font-weight: 600;
+}
+
+.signup-section .middle-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+.middle-section .rignt {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    
+}
+
+.right .sign {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right .sign .sign-list {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-list .name-list {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+}
+
+.name-list img {
+    width: 16px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.name-list a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.sign-list input {
+    border: 0.5px solid rgba(25, 21, 54, 0.50);
+    background: rgba(25, 21, 54, 0.53);
+    padding: 7px 80px;
+}
+
+
+.middle-section .left {
+    position: relative;
+    margin-top: 40px;
+}
+
+.left .face-table {
+    background: #00042C;
+    box-shadow: 0px 0px 6.58038px 1.31608px #0D1242;
+    padding: 5px 40px 20px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.face-table h3 {
+    color: #fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.face-table img {
+    width: 140px;
+    height: 140px;
+}
+
+.face-table .s-face-btn {
+    position: relative;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #00D1FF;
+    box-shadow: 0px 0px 20px 2px #1C8A84;
+    color: #fff;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 40px;
+}
+
+.signup-table .submit-button {
+    margin-top: 20px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+    border: none;
+    color: #fff;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    padding: 8px 120px;
+
+}
+
+@media(max-width: 1200px){
+    .signup-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 100%;
+        height: auto;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+    
+    .signup-banner-section {
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        background: #050022;
+    }
+    
+    .signup-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .signup-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .signup-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 280px;
+        flex-shrink: 0;
+    }
+     
+    .signup-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .signup-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .signup-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .signup-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .signup-banner-section .signup-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .signup-container .main-signup {
+        position: relative;
+        flex-shrink: 0;
+        margin-left: -220px;
+    }
+    
+    .signup-container .main-signup .signup-contain {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    
+    .signup-table {
+        padding: 30px 30px 30px 20px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: -180px;
+    }
+    
+    .signup-table .heading-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    
+    .heading-wrapper h2 {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 26px;
+        font-weight: 600px;
+    }
+    
+    .heading-wrapper p {
+        color: #aeaeae;
+        font-family: "Josefin-Sans",sans-serif;
+        margin-top: -10px;
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    
+    .heading-wrapper span {
+        color: #00D1FF;
+        font-weight: 600;
+    }
+    
+    .signup-section .middle-section {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        margin-top: 30px;
+    }
+    
+    .middle-section .rignt {
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        
+    }
+    
+    .right .sign {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .right .sign .sign-list {
+        list-style-type: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .sign-list .name-list {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 10px;
+    }
+    
+    .name-list img {
+        width: 16px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+    
+    .name-list a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    
+    .sign-list input {
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        padding: 7px 80px;
+    }
+    
+    
+    .middle-section .left {
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .left .face-table {
+        background: #00042C;
+        box-shadow: 0px 0px 6.58038px 1.31608px #0D1242;
+        padding: 5px 40px 20px 40px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .face-table h3 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .face-table img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .face-table .s-face-btn {
+        position: relative;
+        border-radius: 6px;
+        background-color: transparent;
+        border: 1px solid #00D1FF;
+        box-shadow: 0px 0px 20px 2px #1C8A84;
+        color: #fff;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 6px 40px;
+    }
+    
+    .signup-table .submit-button {
+        margin-top: 20px;
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        border: none;
+        color: #fff;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        position: relative;
+        padding: 8px 120px;
+    
+    }
+    
+
+}
+@media(max-width: 700px){
+    .signup-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .signup-section .mobile-header {
+        display: block;
+        width: 410px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .signup-section .mobile-header .wrapper {
+        width: 410px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .signup-section .mobile-header.scrolled {
+        background: #000;
+        width: 410px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .mobile-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .mobile-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .mobile-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .mobile-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .signup-section .signup-banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .signup-section .signup-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .signup-section .wrapper .signup-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .signup-section .wrapper .signup-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+    }
+     
+    .signup-section .wrapper .signup-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .signup-section .wrapper .signup-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .signup-section .wrapper .signup-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .signup-section .wrapper .signup-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+
+    
+    .signup-container .main-signup {
+        position: relative;
+        flex-shrink: 0;
+        margin-left: -220px;
+    }
+    
+    .signup-container .main-signup .signup-contain {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    
+    .signup-table {
+        padding: 20px 20px 20px 0px;
+        border: 2px solid #E3DB17;
+        background: #050022;
+        box-shadow: 0px 0px 8px 2px rgba(252, 212, 0, 0.74);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: -260px;
+    }
+    
+    .signup-table .heading-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    
+    .heading-wrapper h2 {
+        color: #fff;
+        font-family: "Josefin-Sans" ,sans-serif;
+        font-size: 26px;
+        font-weight: 600px;
+    }
+    
+    .heading-wrapper p {
+        color: #aeaeae;
+        font-family: "Josefin-Sans",sans-serif;
+        margin-top: -10px;
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    
+    .heading-wrapper span {
+        color: #00D1FF;
+        font-weight: 600;
+    }
+    
+    .signup-section .middle-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    
+    .middle-section .rignt {
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        
+    }
+    
+    .right .sign {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .right .sign .sign-list {
+        list-style-type: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .sign-list .name-list {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 10px;
+    }
+    
+    .name-list img {
+        width: 16px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+    
+    .name-list a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    
+    .sign-list input {
+        border: 0.5px solid rgba(25, 21, 54, 0.50);
+        background: rgba(25, 21, 54, 0.53);
+        padding: 7px 70px;
+    }
+    
+    
+    .middle-section .left {
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .left .face-table {
+        background: #00042C;
+        box-shadow: 0px 0px 6.58038px 1.31608px #0D1242;
+        padding: 5px 20px 20px 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .face-table h3 {
+        color: #fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .face-table img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .face-table .s-face-btn {
+        position: relative;
+        border-radius: 6px;
+        background-color: transparent;
+        border: 1px solid #00D1FF;
+        box-shadow: 0px 0px 20px 2px #1C8A84;
+        color: #fff;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 6px 40px;
+    }
+    
+    .signup-table .submit-button {
+        margin-top: 30px;
+        border-radius: 4px;
+        background: linear-gradient(90deg, #314C74 0%, #0D1242 95.23%);
+        border: none;
+        color: #fff;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        position: relative;
+        padding: 8px 130px;
+    
+    }
+    
+
+}
+
+
+/*--------------------------------------faq-section------------------------------------*/
+
+.faq-section {
+    width: 100%;
+    height: 200vh;
+    background: #050022;
+}
+
+.faq-banner-section {
+    position: relative;
+    width: 100%;
+}
+
+.faq-banner-section .wrapper {
+    width: 100%;
+    background: #050022;
+    flex-shrink: 0;   
+}
+
+.faq-banner-section .container {
+    position: relative;
+    height: 370px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.faq-banner-section .container .image img {
+    height: auto;
+    width: 100%;
+    height: 370px;
+    flex-shrink: 0;
+}
+ 
+.faq-banner-section .container .text-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: -280px;
+}
+
+.faq-banner-section .container .text-section h1 {
+    color: #FFF;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faq-banner-section .container .text-section p {
+    color: #Fff;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.faq-banner-section .container .text-section span {
+    color: #FCD400;
+}
+
+.faq-banner-section .faq-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.faq-container .main-faq {
+    padding: 200px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.faq-container .main-faq .faq-contain {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+
+.faq-contain h2 {
+    color: #FCD400;
+    font-family: "Josefin Sans" ,sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    position: relative;
+    margin-top: -130px;
+    text-align: center;
+}
+
+.faq-main-section {
+    position: relative;
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+}
+
+.faq-main-section .first-faq {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-main-section .first-faq .fi-row {
+    position: relative;
+}
+
+.faq-main-section .first-faq .fi-row .f-detail {
+    list-style-type: none;
+    width: 420px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #FCB500;
+    box-shadow: 2px 2px 8px 0px #FCD400;
+    
+}
+
+.faq-main-section .first-faq .fi-row .f-detail a {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.f-detail span {
+    color: #FFF;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.f-detail img {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.f-detail:focus-within>.faq-con {
+    display: block;
+}
+
+.faq-con {
+    display: none;
+    position: relative;
+    margin-top: 10px;
+    transition: ease-in-out;
+}
+
+.faq-con .faq-c {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;    
+}
+
+@media(max-width: 1200px){
+    .faq-section {
+        background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
+        width: 100%;
+        height: auto;
+        margin-top: -8px;
+        margin-left: -8px;
+        position: relative;
+    }
+    
+    .faq-banner-section {
+        position: relative;
+        width: 100%;
+        height: 220vh;
+        background: #050022;
+    }
+    
+    .faq-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .faq-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .faq-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 280px;
+        flex-shrink: 0;
+    }
+     
+    .faq-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .faq-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .faq-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .faq-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+    
+    .faq-banner-section .faq-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .faq-container .main-faq {
+        position: relative;
+        flex-shrink: 0;
+       
+    }
+    
+    .faq-container .main-faq .faq-contain {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    
+    .faq-contain h2 {
+        color: #FCD400;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .faq-main-section {
+        position: relative;
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    
+    .faq-main-section .first-faq {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faq-main-section .first-faq .fi-row {
+        position: relative;
+    }
+    
+    .faq-main-section .first-faq .fi-row .f-detail {
+        list-style-type: none;
+        width: 550px;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+        border: 1px solid #FCB500;
+        box-shadow: 2px 2px 8px 0px #FCD400;
+        
+    }
+    
+    .faq-main-section .first-faq .fi-row .f-detail a {
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        text-decoration: none;
+    }
+    
+    .f-detail span {
+        color: #FFF;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .f-detail img {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .f-detail:focus-within>.faq-con {
+        display: block;
+    }
+    
+    .faq-con {
+        display: none;
+        position: relative;
+        margin-top: 10px;
+        transition: ease-in-out;
+    }
+    
+    .faq-con .faq-c {
+        color: #FFF;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;    
+    }
+    
+}
+
+@media(max-width: 700px){
+    .faq-section {
+        width: 100%;
+        height: 100vh;
+        background: #050022;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .faq-section .mobile-header {
+        display: block;
+        width: 410px;
+        height: 90px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .faq-section .mobile-header .wrapper {
+        width: 410px;
+        position: absolute;
+        background-color: #000;
+        height: 90px;
+    }
+
+    .faq-section .mobile-header.scrolled {
+        background: #000;
+        width: 410px;
+        border-bottom: 1px solid #8b8b8b;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .faq-header .main-menu {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .faq-header .main-menu .logo img {
+        position: relative;
+        z-index: 100;
+        margin-top: 10px;
+    }
+
+    .faq-header .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 15px;
+    }   
+
+    .faq-header .signup-b {
+        margin-left: 120px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        
+    }
+
+    .main-menu .menu-btn {
+        border-radius: 50%;
+        width: 32px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+        margin-top: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .main-menu .menu-btn img {
+        width: 14px;
+        height: 16px;
+    }
+    .header-container {
+        display: none;
+    }
+
+    .header-container .mobile-header-1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: #1d1d1d;
+        border-bottom: 1px solid #8b8b8b;
+        position: relative;
+        z-index: 200;
+    }
+
+    .header-container .main-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .header-container .main-menu img {
+        position: relative;
+        z-index: 100;
+    }
+
+    .header-container .main-menu .btn-grp {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }   
+
+    .header-container .signup-b {
+        margin-left: 130px;
+        margin-top: 4px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #00419c 0%, #000056 95.23%);
+        width: 120px;
+        height: 42px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .main-menu .close-btn {
+        border-radius: 50%;
+        width: 30px;
+        height: 28px;
+        border: none;
+        background-color: #fff;
+        margin-top: 17px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .header-container .main-menu .close-btn img {
+        width: 14px;
+        height: 16px;
+    }
+
+     .header-container .nav-list {
+        position: relative;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    
+    .header-container .list-item {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-shrink: 0;
+        
+    }
+    
+    .header-container .nav-list .list-item li .l-item {
+        list-style-type: none;
+        text-decoration: none;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        border: none;
+        border-bottom: 1px solid #8b8b8b;
+        color: #ECECEC;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        flex-shrink: 0;
+    }
+
+    .header-container form {
+        margin-left: 30px;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .header-container form input {
+        font-family: "Tstok Web" , sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        border-radius: 8px;
+        padding: 8px 10px 4px 60px;
+        border: none;
+        width: 360px;
+        color: #fff;
+        border: 0.5px solid #8b8b8b;
+        background-color: transparent;
+    }
+
+    .header-container .search-button {
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border-radius: 8px;
+        padding: 8px 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .header-container .search-button img {
+        width: 20px;
+        height: 22px;
+    }
+
+    .header-container .last-nav {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        margin-top: 90px;
+    }
+
+    .header-container .last-nav .btn-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-container .download-b {
+        margin-left: 30px;
+        margin-top: 10px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #DD009F;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .header-container .login-b {
+        margin-left: 30px;
+        margin-top: 20px;
+        border: none;
+        background: none;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "Istok Web" ,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .faq-section .faq-banner-section {
+        position: relative;
+        width: 100%;
+    }
+    
+    .faq-section .faq-banner-section .wrapper {
+        width: 100%;
+        background: #050022;
+        flex-shrink: 0;   
+    }
+    
+    .faq-section .wrapper .faq-banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    .faq-section .wrapper .faq-banner-section .container .image img {
+        height: auto;
+        width: 100%;
+        height: 220px;
+        flex-shrink: 0;
+    }
+     
+    .faq-section .wrapper .faq-banner-section .container .text-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: -180px;
+    }
+    
+    .faq-section .wrapper .faq-banner-section .container .text-section h1 {
+        color: #FFF;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .faq-section .wrapper .faq-banner-section .container .text-section p {
+        color: #Fff;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -20px;
+    }
+    
+    .faq-section .wrapper .faq-banner-section .container .text-section span {
+        color: #FCD400;
+    }
+
+    .faq-container .main-faq {
+        position: relative;
+        flex-shrink: 0;
+        padding: 200px 10px;
+    }
+    
+    .faq-container .main-faq .faq-contain {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
+    
+    .faq-container .main-faq .faq-contain h2 {
+        color: #FCD400;
+        font-family: "Josefin Sans" ,sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+        margin-top: -300px;
+        text-align: center;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-main-section {
+        position: relative;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        margin-left: -35px;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-main-section .first-faq {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-main-section .first-faq .fi-row {
+        position: relative;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-main-section .first-faq .fi-row .f-detail {
+        list-style-type: none;
+        width: 360px;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+        border: 1px solid #FCB500;
+        box-shadow: 2px 2px 8px 0px #FCD400;
+        
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-main-section .first-faq .fi-row .f-detail a {
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        text-decoration: none;
+    }
+    
+    .faq-container .main-faq .faq-contain .f-detail span {
+        color: #FFF;
+        font-family: "Open Sans" ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .faq-container .main-faq .faq-contain .f-detail img {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .f-detail:focus-within>.faq-con {
+        display: block;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-con {
+        display: none;
+        position: relative;
+        margin-top: 10px;
+        transition: ease-in-out;
+    }
+    
+    .faq-container .main-faq .faq-contain .faq-con .faq-c {
+        color: #FFF;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;    
+    }
+    
+}
+
