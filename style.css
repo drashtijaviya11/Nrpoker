@@ -171,6 +171,8 @@ body{
     position: relative;
     padding: 10px 20px 10px 10px;
     flex-shrink: 0;
+    margin-left: -20px;
+    margin-top: -5px;
 }
 
 .signup-b {
@@ -1141,9 +1143,19 @@ body{
 
 .banner-section .container .image img {
     height: auto;
-    width: 100%;
-    height: 370px;
+    width: 950px;
+    height: 350px;
     flex-shrink: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.banner-section .container .bg {
+    height: 400px;
+    background: rgba(15, 0, 105, 0.50);
+    position: relative;
+    margin-top: -400px;
 }
  
 .banner-section .container .text-section {
@@ -1943,11 +1955,28 @@ body{
         align-items: center;
     }
     
+    .about-section .banner-section .container {
+        position: relative;
+        height: 370px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    
     .about-section .banner-section .container .image img {
         height: auto;
-        width: 100%;
-        height: 220px;
+        width: 400px;
+        height: 180px;
         flex-shrink: 0;
+        position: relative;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+    .about-section .banner-section .container .bg {
+        height: 240px;
+        background: rgba(15, 0, 105, 0.50);
+        position: relative;
+        margin-top: -240px;
     }
      
     .about-section .banner-section .container .text-section {
@@ -2332,9 +2361,19 @@ body{
 
 .contact-banner-section .container .image img {
     height: auto;
-    width: 100%;
-    height: 370px;
+    width: 950px;
+    height: 350px;
     flex-shrink: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.contact-banner-section .container .bg {
+    height: 400px;
+    background: rgba(15, 0, 105, 0.50);
+    position: relative;
+    margin-top: -400px;
 }
  
 .contact-banner-section .container .text-section {
@@ -2604,7 +2643,7 @@ body{
     font-size: 14px;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .conatct-section {
         width: 100%;
         height: auto;
@@ -2865,31 +2904,41 @@ body{
         line-height: normal;
     }
     
-    .contact-section .banner-section {
+    .contact-section .contact-banner-section {
         position: relative;
         width: 100%;
     }
     
-    .contact-section .banner-section .wrapper {
+    .contact-section .contact-banner-section .wrapper {
         width: 100%;
         background: #050022;
         flex-shrink: 0;   
     }
     
-    .contact-section .banner-section .container {
+    .contact-section .contact-banner-section .container {
         position: relative;
-        height: 370px;
+        height: 350px;
         flex-shrink: 0;
         align-items: center;
     }
     
-    .contact-section .banner-section .container .image img {
+    .contact-section .contact-banner-section .container .image img {
         height: auto;
-        width: 100%;
-        height: 220px;
+        width: 400px;
+        height: 180px;
         flex-shrink: 0;
+        position: relative;
+        margin-top: 60px;
+        margin-left: 10px;
     }
-     
+    
+    .contact-section .contact-banner-section .container .bg {
+        height: 240px;
+        background: rgba(15, 0, 105, 0.50);
+        position: relative;
+        margin-top: -240px;
+    }
+    
     .contact-section .banner-section .container .text-section {
         position: relative;
         display: flex;
@@ -3505,9 +3554,19 @@ body{
 
 .login-banner-section .container .image img {
     height: auto;
-    width: 100%;
-    height: 370px;
+    width: 950px;
+    height: 350px;
     flex-shrink: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.login-banner-section .container .bg {
+    height: 400px;
+    background: rgba(15, 0, 105, 0.50);
+    position: relative;
+    margin-top: -400px;
 }
  
 .login-banner-section .container .text-section {
@@ -3759,10 +3818,10 @@ body{
     padding: 8px 80px;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .login-section {
         width: 100%;
-        height: 100vh;
+        height: auto;
         background: #050022;
     }
 
@@ -4038,12 +4097,23 @@ body{
         align-items: center;
     }
     
-    .login-section .wrapper .login-banner-section .container .image img {
+    .login-section .login-banner-section .container .image img {
         height: auto;
-        width: 100%;
-        height: 220px;
+        width: 400px;
+        height: 180px;
         flex-shrink: 0;
+        position: relative;
+        margin-top: 60px;
+        margin-left: 10px;
     }
+    
+    .login-section .login-banner-section .container .bg {
+        height: 240px;
+        background: rgba(15, 0, 105, 0.50);
+        position: relative;
+        margin-top: -240px;
+    }
+     
      
     .login-section .wrapper .login-banner-section .container .text-section {
         position: relative;
@@ -4598,9 +4668,19 @@ body{
 
 .signup-banner-section .container .image img {
     height: auto;
-    width: 100%;
-    height: 370px;
+    width: 950px;
+    height: 350px;
     flex-shrink: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.signup-banner-section .container .bg {
+    height: 400px;
+    background: rgba(15, 0, 105, 0.50);
+    position: relative;
+    margin-top: -400px;
 }
  
 .signup-banner-section .container .text-section {
@@ -4661,8 +4741,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 185px;
+    margin-top: -100px;
+    margin-left: 75px;
 }
 
 .signup-table .heading-wrapper {
@@ -4698,7 +4778,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 100px;
     margin-top: 30px;
 }
 
@@ -4765,7 +4845,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     flex-shrink: 0;
     align-items: center;
     margin-top: 30px;
@@ -4774,7 +4854,7 @@ body{
 .face-table h3 {
     color: #fff;
     font-family: "Josefin Sans" ,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -4794,6 +4874,7 @@ body{
     font-size: 12px;
     font-weight: 600;
     padding: 6px 40px;
+    margin-top: 30px;
 }
 
 .signup-table .submit-button {
@@ -5056,7 +5137,7 @@ body{
     
 
 }
-@media(max-width: 700px){
+@media(max-width: 500px){
     .signup-section {
         width: 100%;
         height: 100vh;
@@ -5328,18 +5409,28 @@ body{
         flex-shrink: 0;   
     }
     
-    .signup-section .wrapper .signup-banner-section .container {
+    .signup-section .signup-banner-section .container {
         position: relative;
         height: 370px;
         flex-shrink: 0;
         align-items: center;
     }
     
-    .signup-section .wrapper .signup-banner-section .container .image img {
+    .signup-section .signup-banner-section .container .image img {
         height: auto;
-        width: 100%;
-        height: 220px;
+        width: 400px;
+        height: 180px;
         flex-shrink: 0;
+        position: relative;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+    .signup-section .signup-banner-section .container .bg {
+        height: 240px;
+        background: rgba(15, 0, 105, 0.50);
+        position: relative;
+        margin-top: -240px;
     }
      
     .signup-section .wrapper .signup-banner-section .container .text-section {
@@ -5577,9 +5668,19 @@ body{
 
 .faq-banner-section .container .image img {
     height: auto;
-    width: 100%;
-    height: 370px;
+    width: 950px;
+    height: 350px;
     flex-shrink: 0;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.faq-banner-section .container .bg {
+    height: 400px;
+    background: rgba(15, 0, 105, 0.50);
+    position: relative;
+    margin-top: -400px;
 }
  
 .faq-banner-section .container .text-section {
@@ -5888,7 +5989,7 @@ body{
     
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .faq-section {
         width: 100%;
         height: 100vh;
@@ -6160,18 +6261,28 @@ body{
         flex-shrink: 0;   
     }
     
-    .faq-section .wrapper .faq-banner-section .container {
+    .faq-section .faq-banner-section .container {
         position: relative;
         height: 370px;
         flex-shrink: 0;
         align-items: center;
     }
     
-    .faq-section .wrapper .faq-banner-section .container .image img {
+    .faq-section .faq-banner-section .container .image img {
         height: auto;
-        width: 100%;
-        height: 220px;
+        width: 400px;
+        height: 180px;
         flex-shrink: 0;
+        position: relative;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    
+    .faq-section .faq-banner-section .container .bg {
+        height: 240px;
+        background: rgba(15, 0, 105, 0.50);
+        position: relative;
+        margin-top: -240px;
     }
      
     .faq-section .wrapper .faq-banner-section .container .text-section {
