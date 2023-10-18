@@ -9,12 +9,7 @@ const faceLoginTable = document.querySelector(".face-login-table");
 const loginTable = document.querySelector(".login-table");
 
 let isMenuOpen = false;
-let hasFaceLoginTable = false;
 
-// Event listener to remove the login table when the page loads
-window.addEventListener("load", () => {
-    loginTable.style.display = "none";
-});
 
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 60 && !isMenuOpen) {
@@ -40,10 +35,4 @@ closeBtn.addEventListener("click", () => {
     isMenuOpen = false;
 });
 
-lImage.addEventListener("click", () => {
-    if (!hasFaceLoginTable) {
-        faceLoginTable.classList.add("active");
-        loginTable.style.display = "none";
-        hasFaceLoginTable = true;
-    }
-});
+
