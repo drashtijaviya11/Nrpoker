@@ -102,7 +102,7 @@ body{
     position: relative;
     display: flex;
     gap: -10px;
-    padding: 20px 0px 0px 100px;
+    padding: 20px 0px 0px 40px;
     flex-shrink: 0;
 }
 
