@@ -16,7 +16,7 @@ body{
 .main-section {
     background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
     width: 100%;
-    height: 1000px;
+    height: 730px;
     margin-top: -8px;
     position: relative;
 }
@@ -49,6 +49,7 @@ body{
     padding: 10px 5px;
     height: 80px;
     flex-shrink: 0;
+    margin-left: 10px;
 }
 
 .nav-list {
@@ -94,6 +95,7 @@ body{
     width: 30px;
     position: relative;
     flex-shrink: 0;
+    margin-left: 0 !important;
 }
 
 .header .right-side {
@@ -190,7 +192,8 @@ body{
 }
 
 .hero-section {
-    height: 100vh;
+    height: auto !important;
+    margin-bottom: 100px !important;
     width: 100%;
     position: absolute;
     display: flex;
@@ -416,14 +419,15 @@ body{
     }
 
     .header-container.active {
-        width: 412px;
-        height: 825px;
+        width: 100%;
+        height: fit-content;
         background-color: #1d1d1d;
         display: block;
         transition: all 400ms ease;
         z-index: 200;
         position: fixed;
         margin-top: -100px;
+
     }
 
     .header-container {
@@ -492,7 +496,7 @@ body{
      .header-container .nav-list {
         position: relative;
         margin-left: -40px;
-        margin-top: 30px;
+        margin-top: -10px;
     }
     
     .header-container .list-item {
@@ -509,12 +513,12 @@ body{
         text-decoration: none;
         background: transparent;
         width: 350px;
-        height: 60px;
+        height: 50px;
         border: none;
         border-bottom: 1px solid #8b8b8b;
         color: #ECECEC;
         font-family: "Istok Web" ,sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -524,7 +528,7 @@ body{
 
     .header-container form {
         margin-left: 30px;
-        margin-top: 60px;
+        margin-top: 20px;
         position: relative;
     }
 
@@ -534,7 +538,7 @@ body{
         font-size: 16px;
         line-height: 200%;
         border-radius: 8px;
-        padding: 8px 10px 4px 60px;
+        padding: 4px 10px 2px 60px;
         border: none;
         width: 360px;
         color: #fff;
@@ -549,7 +553,7 @@ body{
         transform: translateY(-50%);
         background-color: transparent;
         border-radius: 8px;
-        padding: 8px 32px;
+        padding: 4px 32px;
         border: 0;
         cursor: pointer;
     }
@@ -564,7 +568,7 @@ body{
         width: 100%;
         height: 70px;
         background-color: #000;
-        margin-top: 90px;
+        margin-top: -10px;
     }
 
     .header-container .last-nav .btn-section {
@@ -823,7 +827,7 @@ body{
 
     .header-container.active {
         width: 100%;
-        height: 825px;
+        height: 610px;
         background-color: #1d1d1d;
         display: block;
         transition: all 400ms ease;
@@ -898,7 +902,7 @@ body{
      .header-container .nav-list {
         position: relative;
         margin-left: -40px;
-        margin-top: 30px;
+        margin-top: -10px;
     }
     
     .header-container .list-item {
@@ -915,12 +919,12 @@ body{
         text-decoration: none;
         background: transparent;
         width: 600px;
-        height: 60px;
+        height: 50px;
         border: none;
         border-bottom: 1px solid #8b8b8b;
         color: #ECECEC;
         font-family: "Istok Web" ,sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -930,7 +934,7 @@ body{
 
     .header-container form {
         margin-left: 30px;
-        margin-top: 60px;
+        margin-top: 20px;
         position: relative;
     }
 
@@ -970,7 +974,7 @@ body{
         width: 100%;
         height: 70px;
         background-color: #000;
-        margin-top: 90px;
+        margin-top: 15px;
     }
 
     .header-container .last-nav .btn-section {
@@ -1141,7 +1145,7 @@ body{
     .main-section {
         width: 100%;        
         background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
-        height: 100vh;
+        height: 105vh;
         margin-top: 0px;
         margin-left: 0px;
         position: absolute;
@@ -1229,7 +1233,7 @@ body{
 
     .header-container.active {
         width: 100%;
-        height: 825px;
+        height: 610px;
         background-color: #1d1d1d;
         display: block;
         transition: all 400ms ease;
@@ -1304,7 +1308,7 @@ body{
      .header-container .nav-list {
         position: relative;
         margin-left: -40px;
-        margin-top: 30px;
+        margin-top: -10px;
     }
     
     .header-container .list-item {
@@ -1321,12 +1325,12 @@ body{
         text-decoration: none;
         background: transparent;
         width: 750px;
-        height: 60px;
+        height: 50px;
         border: none;
         border-bottom: 1px solid #8b8b8b;
         color: #ECECEC;
         font-family: "Istok Web" ,sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1336,7 +1340,7 @@ body{
 
     .header-container form {
         margin-left: 30px;
-        margin-top: 60px;
+        margin-top: 20px;
         position: relative;
     }
 
@@ -1376,7 +1380,7 @@ body{
         width: 100%;
         height: 70px;
         background-color: #000;
-        margin-top: 90px;
+        margin-top: 10px;
     }
 
     .header-container .last-nav .btn-section {
@@ -1545,7 +1549,7 @@ body{
     .main-section {
         width: 100%;        
         background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
-        height: 140vh;
+        height: 110vh;
         margin-top: 0px;
         margin-left: 0px;
         position: absolute;
@@ -1633,14 +1637,13 @@ body{
 
     .header-container.active {
         width: 100%;
-        height: 825px;
+        height: 600px;
         background-color: #1d1d1d;
         display: block;
         transition: all 400ms ease;
         z-index: 200;
         position: fixed;
         margin-top: -100px;
-        overflow: scroll;
     }
 
     .header-container {
@@ -1709,7 +1712,7 @@ body{
      .header-container .nav-list {
         position: relative;
         margin-left: -40px;
-        margin-top: -20px;
+        margin-top: -10px;
     }
     
     .header-container .list-item {
@@ -1726,12 +1729,12 @@ body{
         text-decoration: none;
         background: transparent;
         width: 950px;
-        height: 60px;
+        height: 50px;
         border: none;
         border-bottom: 1px solid #8b8b8b;
         color: #ECECEC;
         font-family: "Istok Web" ,sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1781,7 +1784,7 @@ body{
         width: 100%;
         height: 70px;
         background-color: #000;
-        margin-top: 40px;
+        margin-top: 22px;
     }
 
     .header-container .last-nav .btn-section {
@@ -2066,6 +2069,8 @@ body{
     color: #E7E7E7;
     font-family: "Josefin Sans" ,sans-serif;
     font-size: 17px;
+    width: calc(200 * var(--aspect-ratio));
+    text-align: justify;
     font-weight: 400;
     line-height: 25px;
 }
@@ -2073,7 +2078,9 @@ body{
 .contain .para-con span {
     color: #d4d4d4;
     font-family: "Josefin Sans" ,sans-serif;
+    text-align: justify;
     font-size: 15px;
+    width: calc(200 * var(--aspect-ratio));
     font-weight: 400;
     line-height: 25px;
 }
@@ -2265,7 +2272,6 @@ body{
 
 
 }
-
 
 /* Styles for screens between 501px and 700px */
 @media(max-width: 700px) and (min-width: 501px){
@@ -4372,7 +4378,7 @@ body{
 
 .login-section {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: #050022;
 }
 
@@ -4445,11 +4451,12 @@ body{
 .login-banner-section .login-container {
     position: relative;
     width: 100%;
-    height: 120vh;
+    height: 110vh !important;
+    padding: 120px 480px 0px 480px;
+
 }
 
 .login-container .main-login {
-    padding: 120px 480px 100px 480px;
     position: relative;
     flex-shrink: 0;
 }
@@ -8388,7 +8395,7 @@ body{
 
 .faq-section {
     width: 100%;
-    height: 200vh;
+    height: 150vh;
     background: #050022;
 }
 
@@ -8466,6 +8473,7 @@ body{
 
 .faq-container .main-faq {
     padding: 200px;
+    padding-bottom: 20px !important;
     position: relative;
     flex-shrink: 0;
 }
@@ -8540,27 +8548,24 @@ body{
     height: 18px;
 }
 
-.f-detail:focus-within>.faq-con {
+.faq-c.active {
     display: block;
 }
 
-.faq-con {
-    display: none;
-    position: relative;
-    margin-top: 10px;
-    transition: ease-in-out;
-}
-
-.faq-con .faq-c {
+ .faq-c {
     color: #FFF;
     font-family: Open Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;    
+    line-height: 20px;  
+    display: none;
+    position: relative;
+    margin-top: 10px;
+    transition: ease-in-out; 
 }
 
-@media(max-width: 500px){
+/* @media(max-width: 500px){
     .faq-section {
         width: 100%;
         height: 100vh;
@@ -8900,9 +8905,7 @@ body{
     
 }
 
-/* Styles for screens between 501px and 900px */
 @media(max-width: 900px) and (min-width: 701px){
-    /* CSS rules for screens between 501px and 900px */
     
     .faq-section {
         width: 100%;
@@ -9072,9 +9075,7 @@ body{
     }
 }
 
-/* Styles for screens between 901px and 1100px */
 @media(max-width: 1100px) and (min-width: 901px){
-    /* CSS rules for screens between 501px and 900px */
     
     .faq-section {
         width: 100%;
@@ -9243,4 +9244,4 @@ body{
         font-weight: 400;
         line-height: 20px;    
     }
-}
+} */
