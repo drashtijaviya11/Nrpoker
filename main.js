@@ -1,4 +1,4 @@
-const header = document.querySelector(".header");
+    const header = document.querySelector(".header");
 const mobileHeader = document.querySelector(".mobile-header");
 const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close-btn");
