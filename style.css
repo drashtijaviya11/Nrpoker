@@ -21,7 +21,7 @@ body{
 .main-section {
     background: linear-gradient(90deg, #000 1.66%, #000230 28.66%, #000 63.44%);
     width: 100%;
-    height: 770px;
+    height: calc(110*var(--aspect-ratio));
     margin-top: -8px;
     position: relative;
 }
@@ -122,7 +122,7 @@ body{
     margin: 0;
 	border: none;
 	background-color: #fff;
-	padding: calc(.6*var(--aspect-ratio)) calc(1*var(--aspect-ratio));
+	padding: calc(.6*var(--aspect-ratio)) calc(.8*var(--aspect-ratio));
 	border-radius: 50px;
 	flex-shrink: 0;
 }
@@ -136,21 +136,24 @@ body{
 
 .profile-btn {
     position: relative;
-	padding: calc(1*var(--aspect-ratio)) calc(1*var(--aspect-ratio)) 0px calc(2*var(--aspect-ratio));
+	padding: calc(1*var(--aspect-ratio)) calc(1*var(--aspect-ratio)) 0px calc(1*var(--aspect-ratio));
 	flex-shrink: 0;
 }
 
 .profile-b {
-    border: none;
+    margin: 0;
+	border: none;
 	background-color: #fff;
-	padding: calc(.6*var(--aspect-ratio)) calc(1*var(--aspect-ratio));
+	padding: calc(.6*var(--aspect-ratio)) calc(.8*var(--aspect-ratio));
 	border-radius: 50px;
 	flex-shrink: 0;
 }
 
-.help-b img {
-    width: calc(2.5*var(--aspect-ratio)) !important;
-	height: calc(2.5*var(--aspect-ratio)) !important;
+.profile-bmg {
+    width: calc(2.5*var(--aspect-ratio));
+	height: calc(2.5*var(--aspect-ratio));
+	align-items: center;
+	flex-shrink: 0;
 }
 
 .download-btn {
@@ -197,7 +200,6 @@ body{
 
 .hero-section {
     height: auto !important;
-    margin-bottom: 100px !important;
     width: 100%;
     position: absolute;
     display: flex;
@@ -328,7 +330,6 @@ body{
     display: none;
 }
 
-/* Default styles for all screen sizes */
 
 /* Styles for screens up to 500px */
 @media(max-width: 500px){
@@ -5490,14 +5491,14 @@ body{
 
     }
     
-    .login-section .wrapper .login-banner-section .login-container .main-login {
-        /* align-items: center;
+    /* .login-section .wrapper .login-banner-section .login-container .main-login {
+        align-items: center;
         display: flex;
         margin-top: 300px;
         margin-left: -160px;
         position: relative;
-        flex-shrink: 0; */
-    }
+        flex-shrink: 0;
+    } */
     
     .login-section .wrapper .login-banner-section .login-container .main-login .login-table {
         padding: calc(5*var(--aspect-ratio)) calc(5*var(--aspect-ratio));
